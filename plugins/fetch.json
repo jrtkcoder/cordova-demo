@@ -22,5 +22,13 @@
     },
     "is_top_level": true,
     "variables": {}
+  },
+  "com.woodstream.cordova.fix.blackscreen": {
+    "source": {
+      "type": "registry",
+      "id": "https://github.com/jrtkcoder/cordova-fix-blackscreen.git"
+    },
+    "is_top_level": true,
+    "variables": {}
   }
 }

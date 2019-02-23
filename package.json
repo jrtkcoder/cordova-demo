@@ -11,15 +11,19 @@
     "license": "Apache-2.0",
     "dependencies": {
         "cordova-android": "^7.1.4",
+        "cordova-fix-blackscreen": "git+https://github.com/jrtkcoder/cordova-fix-blackscreen.git",
         "cordova-plugin-exitapp": "file:../learuan/learun.ui/cordova-plugin/cordova.custom.plugins.exitapp",
         "cordova-plugin-splashscreen": "^5.0.2",
-        "cordova-plugin-whitelist": "^1.3.3"
+        "cordova-plugin-whitelist": "^1.3.3",
+        "cordova.custom.plugins.exitapp": "D:\\lvzhimin\\cordova\\learuan\\learun.ui\\cordova-plugin\\cordova.custom.plugins.exitapp",
+        "com.woodstream.cordova.fix.blackscreen": "https://github.com/jrtkcoder/cordova-fix-blackscreen.git"
     },
     "cordova": {
         "plugins": {
             "cordova-plugin-whitelist": {},
             "cordova.custom.plugins.exitapp": {},
-            "cordova-plugin-splashscreen": {}
+            "cordova-plugin-splashscreen": {},
+            "com.woodstream.cordova.fix.blackscreen": {}
         },
         "platforms": [
             "android"

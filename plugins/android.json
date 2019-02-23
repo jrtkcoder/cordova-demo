@@ -7,13 +7,16 @@
     "files": {}
   },
   "installed_plugins": {
+    "com.woodstream.cordova.fix.blackscreen": {
+      "PACKAGE_NAME": "com.lzm.android"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.lzm.android"
+    },
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "com.lzm.android"
     },
     "cordova.custom.plugins.exitapp": {
-      "PACKAGE_NAME": "com.lzm.android"
-    },
-    "cordova-plugin-splashscreen": {
       "PACKAGE_NAME": "com.lzm.android"
     }
   },
