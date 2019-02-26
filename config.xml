@@ -8,9 +8,11 @@
         Apache Cordova Team
     </author>
     <content src="index.html" />
-    <preference name="SplashScreen" value="screen" />
+    <preference name="SplashScreen" value="start" />
     <preference name="SplashScreenDelay" value="3000" />
     <preference name="AutoHideSplashScreen" value="false" />
+    <preference name="SplashMaintainAspectRatio" value="false" />
+    <preference name="ShowSplashScreenSpinner" value="false" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
@@ -22,7 +24,7 @@
     <platform name="android">
         <allow-intent href="market:*" />
         <edit-config file="AndroidManifest.xml" mode="merge" target="/manifest/application/activity[@android:name='MainActivity']">
-            <activity android:theme="@style/WelcomeStyle" />
+            <activity android:theme="@style/StartTheme" />
         </edit-config>
     </platform>
     <platform name="ios">
